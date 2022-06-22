@@ -17,6 +17,6 @@ public class Hensuustand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Text.text = string.Format("sum "+status.star);
+        //Text.text = string.Format("sum "+ status.star);
     }
 }

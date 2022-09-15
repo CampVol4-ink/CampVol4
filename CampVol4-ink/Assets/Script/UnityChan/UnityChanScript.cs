@@ -253,11 +253,6 @@ public class UnityChanScript : MonoBehaviour
         hpChecker();
     }
 
-    private void OnTriggerStay(Collider other)
-    {
-        
-    }
-    
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Atmos"))

@@ -12,7 +12,6 @@ public class goal3_koki : MonoBehaviour{
         if(other.gameObject.CompareTag("Player")){
             Invoke("ShowGoalUI", 0.1f);
             Gamesystem.isClear3=true;
-            SceneManager.LoadScene("habstage");
         }
     }
     private void ShowGoalUI()

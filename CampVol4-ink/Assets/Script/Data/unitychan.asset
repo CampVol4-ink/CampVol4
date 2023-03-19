@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: unitychan
   m_EditorClassIdentifier: 
   name: UnityChan
-  hp: 1
-  life: 96
+  hp: 100
+  life: 95
   ult: 10
   skill: 2
-  star: 85
-  death: 20
+  star: 90
+  death: 21
